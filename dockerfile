@@ -31,4 +31,5 @@ VOLUME /app/data
 
 ENV DB_PATH=/app/data/tracker.db
 
-ENTRYPOINT ["/app/parcel-tracker"]
+ENTRYPOINT ["/app/parcel-tracker"]# Добавлено для PR
+
