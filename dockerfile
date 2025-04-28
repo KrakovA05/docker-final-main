@@ -23,6 +23,7 @@ RUN mkdir -p /app/data && \
 
 WORKDIR /app
 
+
 COPY --from=builder --chown=appuser:appgroup /parcel-tracker /app/parcel-tracker
 
 USER appuser
