@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS parcel (
+    number INTEGER PRIMARY KEY AUTOINCREMENT,
+    client INTEGER NOT NULL,
+    status TEXT NOT NULL,
+    address TEXT NOT NULL,
+    created_at TEXT NOT NULL
+);
